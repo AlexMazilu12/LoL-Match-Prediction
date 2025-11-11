@@ -1,0 +1,47 @@
+{
+  "model_name": "Logistic Regression (pruned)",
+  "feature_names": [
+    "num__gold_diff_15",
+    "num__cs_diff_15",
+    "cat__first_dragon_blue",
+    "cat__first_dragon_red",
+    "cat__first_dragon_None",
+    "cat__first_tower_blue",
+    "cat__first_tower_red",
+    "cat__first_tower_None",
+    "cat__first_herald_blue",
+    "cat__first_herald_red",
+    "cat__first_herald_None"
+  ],
+  "coefficients": [
+    1.1518965273371329,
+    0.033764291757375026,
+    0.31232932216893056,
+    -0.27332125353068487,
+    0.0004594996835865182,
+    0.2167782622354739,
+    -0.17852307636349365,
+    0.001212382449851972,
+    0.36661830899049197,
+    -0.35411280246892174,
+    0.026962061800261457
+  ],
+  "intercept": 0.03984547377517666,
+  "numeric_features": [
+    "gold_diff_15",
+    "cs_diff_15"
+  ],
+  "scaler_mean": [
+    107.08315618356883,
+    0.11304239089658621
+  ],
+  "scaler_scale": [
+    3342.206214254982,
+    40.27238726038845
+  ],
+  "categorical_features": [
+    "first_dragon",
+    "first_tower",
+    "first_herald"
+  ]
+}
